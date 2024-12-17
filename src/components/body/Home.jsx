@@ -5,6 +5,7 @@ import ExperienceSection from './home/ExperienceSection';
 import ServicesSection from './home/ServicesSection';
 import TestimonialSection from '../reutilizables/TestimonialSection';
 import PortfolioBanner from "../reutilizables/PortfolioBanner";
+import FAQSection from '../reutilizables/FAQSection';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
             <ServicesSection />
             <TestimonialSection />
             <PortfolioBanner />
+            <FAQSection />
         </main>
     )
 

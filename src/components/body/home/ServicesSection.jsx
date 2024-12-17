@@ -4,6 +4,7 @@ import { FaLaptopCode, FaTools, FaWordpress, FaMobileAlt, FaRocket, FaHandshake 
 import "animate.css";
 import "../../styles/home/ServicesSection.css";
 
+
 const servicesData = [
   {
     id: 1,
@@ -70,7 +71,7 @@ const ServicesSection = () => {
         <div className="text-center mt-5 animate__animated animate__fadeInUp">
           <h3 className="cta-title mb-3">¿Listo para llevar tu proyecto al siguiente nivel?</h3>
           <Button
-            href="#contact"
+            href="/contact"
             variant="primary"
             className="cta-button"
             size="lg"

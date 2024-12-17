@@ -11,6 +11,7 @@ const PortfolioBanner = () => {
     navigate("/portfolio"); // Ruta a tu portafolio
   };
 
+
   return (
     <section className="portfolio-banner py-5">
       <Container className="text-center">
@@ -24,7 +25,7 @@ const PortfolioBanner = () => {
           </p>
           <Button
             variant=""
-            className="btn-cta"
+            className="btn-cta animate__animated animate__pulse infinite-btn"
             onClick={handlePortfolioClick}
           >
             Ver mi Portafolio

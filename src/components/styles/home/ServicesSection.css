@@ -1,75 +1,81 @@
 .services-section {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: white;
-  }
-  
+  background: linear-gradient(135deg, #0f2027, #203a43, #080d0f) !important;
+  color: white;
+}
+
+.highlight {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00d4ff;
+}
+
+.service-card {
+  background: #1e293b !important;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 15px rgba(0, 212, 255, 0.5);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #00d4ff;
+  margin-bottom: 15px;
+}
+
+.service-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f8f8f8;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #d1d5db;
+}
+
+.cta-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00d4ff;
+}
+
+.cta-button {
+  background: #00d4ff !important;
+  color: #fff !important;
+  font-weight: bold!important;
+  transition: all 0.3s ease;
+  border-top-left-radius:0px!important;
+  border-bottom-right-radius: 0px!important;
+  font-size: 1.2rem;
+}
+
+.cta-button:hover {
+  background: #004e92 !important;
+  transform: scale(1.05);
+  color: #fff !important;
+}
+
+
+
+@media (max-width: 768px) {
   .highlight {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #00d4ff;
+    font-size: 2rem;
   }
-  
-  .service-card {
-    background: #1e293b !important;
-    border: none;
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 20px;
-  }
-  
-  .service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 10px 15px rgba(0, 212, 255, 0.5);
-  }
-  
-  .service-icon {
-    font-size: 3rem;
-    color: #00d4ff;
-    margin-bottom: 15px;
-  }
-  
+
   .service-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #00d4ff;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
   }
-  
-  .service-description {
-    font-size: 1rem;
-    color: #d1d5db;
-  }
-  
+
   .cta-title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #00d4ff;
+    font-size: 1.5rem;
   }
-  
-  .cta-button {
-    background-color: #00d4ff;
-    border: none;
-    color: white;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background-color: #008bb3;
-    color: white;
-  }
-  
-  @media (max-width: 768px) {
-    .highlight {
-      font-size: 2rem;
-    }
-    .service-title {
-      font-size: 1.1rem;
-    }
-    .cta-title {
-      font-size: 1.5rem;
-    }
-  }
-  
+}

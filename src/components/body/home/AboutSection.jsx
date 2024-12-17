@@ -40,7 +40,7 @@ const AboutSection = () => {
                     focos.ar
                   </a>
                 </p>
-                <Button variant="primary" size="sm" className="mt-3">
+                <Button  size="sm" className="mt-3 botonHover">
                   Ver Portafolio
                 </Button>
               </div>

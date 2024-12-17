@@ -1,0 +1,61 @@
+.contact-hero {
+  position: relative;
+  height: 100vh;
+  background: url("/public/assets/imagenes/home/heroBienvenida/posibleslider1.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  color: #fff;
+  max-width: 600px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  background: #00d4ff !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  transition: all 0.3s ease;
+  border-top-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border: none !important;
+} 
+
+.hero-btn:hover {
+  background: #004e92 !important;
+  transform: scale(1.05);
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .glass-box {
+    padding: 20px;
+  }
+}

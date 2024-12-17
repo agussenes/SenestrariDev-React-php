@@ -79,3 +79,19 @@
   font-size: 1rem;
   line-height: 1.6;
 }
+
+/* Botón */
+.botonHover {
+  background: #00d4ff !important;
+  color: #fff !important;
+  font-weight: bold!important;
+  transition: all 0.3s ease;
+  border-top-left-radius:0px!important;
+  border-bottom-right-radius: 0px!important;
+}
+
+.botonHover:hover {
+  background: #004e92 !important;
+  transform: scale(1.05);
+  color: #fff !important;
+}

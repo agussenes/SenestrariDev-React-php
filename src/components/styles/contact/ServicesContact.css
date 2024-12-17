@@ -1,0 +1,25 @@
+
+.services-contact-section{
+  background: linear-gradient(135deg, #0f2027, #203a43, #080d0f) !important;
+}
+
+.services-contact-section h2 {
+  font-weight: bold;
+  color: #00BCD4;
+}
+
+.services-contact-card {
+  background: #1e293b !important;
+  transition: transform 0.3s ease;
+  color: #fff !important;
+}
+
+.services-contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.services-contact-icon {
+  font-size: 3rem;
+  color: #00b4ff;
+}
