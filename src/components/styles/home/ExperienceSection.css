@@ -1,0 +1,80 @@
+/* Fondo y estilo general de la sección */
+.experience-section {
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+/* Título con el efecto de Typewriter */
+.title-typing {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00d9ff;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+/* Estilo de las tarjetas */
+.custom-card {
+  background: #1e293b !important;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  color: #fff;
+  transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  border-color: #00d9ff;
+  box-shadow: 0 10px 20px rgba(0, 212, 255, 0.5);
+}
+
+/* Títulos de las tarjetas */
+.custom-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00d9ff;
+  margin-bottom: 1rem;
+}
+
+/* Estilo de los íconos */
+.icon-style {
+  font-size: 1.8rem;
+  color: #00d9ff;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.icon-style:hover {
+  color: #00b4d8;
+}
+
+/* Lista dentro de las tarjetas */
+.custom-card ul {
+  padding-left: 0;
+}
+
+.custom-card li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #d1d5db;
+  transition: color 0.3s ease;
+}
+
+.custom-card li:hover {
+  color: #ffffff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .title-typing {
+    font-size: 1.8rem;
+  }
+
+  .custom-card .card-title {
+    font-size: 1.3rem;
+  }
+}

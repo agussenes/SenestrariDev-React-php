@@ -1,0 +1,130 @@
+/* ♦-------------------General-------------------♦ */
+
+/* Ajuste para el contenido */
+.main-content {
+    padding-top: 70px; 
+  }
+
+/* ♦-------------------Header-------------------♦ */
+
+
+/* General para botones */
+.custom-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold !important;
+    padding: 4px 10px !important;
+    border-radius: 8px; /* Bordes redondeados */
+    transition: all 0.4s ease-in-out; /* Transición suave */
+    
+  }
+
+  #botonRegistro{
+    background-color: #00bcd4 !important;
+  }
+
+  #botonRegistro:hover{
+    background-color: #024b55 !important;
+    border-color: transparent !important;
+  }
+  
+  /* Hover effect para botones */
+  .custom-button:hover {
+    transform: translateY(-2px); /* Efecto levantamiento */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+  }
+  
+  /* Personalización del botón Login */
+  .custom-button.btn-outline-primary {
+    border-color: #00bcd4; /* Color personalizado */
+    color: #00bcd4;
+  }
+  
+  .custom-button.btn-outline-primary:hover {
+    background-color: #00bcd4;
+    color: #fff;
+  }
+  
+  /* Personalización del botón Register */
+  .custom-button.btn-primary {
+    background-color: #007bff; /* Color azul primario */
+    border-color: #007bff;
+  }
+  
+  .custom-button.btn-primary:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    border-color: #0056b3;
+  }
+  
+
+
+/* ♦-------------------Footer-------------------♦ */
+
+
+
+/* ♦-------------------WhatsAppButton-------------------♦ */
+
+
+/* Estilo para el botón flotante de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-icon {
+    font-size: 3rem;
+}
+
+
+
+/* ♦-------------------ScrollBar-------------------♦ */
+
+/* Scrollbar para navegadores basados en WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la scrollbar */
+    height: 10px; /* Altura si es horizontal */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo del track */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #00bcd4; /* Color celeste de la scrollbar */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #f1f1f1; /* Espacio entre thumb y track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #008ba3; /* Color celeste más oscuro al hacer hover */
+  }
+  
+  /* Scrollbar en Firefox */
+  * {
+    scrollbar-width: thin; /* Hace la barra más delgada */
+    scrollbar-color: #00bcd4 #f1f1f1; /* Color del thumb y del track */
+  }
+  
+  /* Mejoras para pantallas táctiles */
+  html {
+    -webkit-overflow-scrolling: touch; /* Suaviza el scroll en iOS */
+  }
+  

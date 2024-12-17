@@ -1,0 +1,83 @@
+/* Sección general del banner */
+.portfolio-banner {
+  background: linear-gradient(to right, #004e92, #00d4ff);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Título principal */
+.banner-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* Texto descriptivo */
+.banner-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Botón principal de llamada a la acción */
+.btn-cta {
+  font-size: 1.1rem;
+  font-weight: bold !important;
+  background-color: #ffffff !important;
+  color: #004e92;
+  padding: 12px 40px;
+  border-top-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+.btn-cta:hover {
+  background-color: #00b4ff;
+  color: #000000 !important;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Animaciones responsivas */
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-text {
+    font-size: 1rem;
+  }
+
+  .btn-cta {
+    font-size: 1rem;
+    padding: 10px 30px;
+  }
+}
+
+/* Animaciones con animate.css */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
