@@ -10,8 +10,8 @@ const AboutSection = () => {
         {/* Título */}
         <Row className="mb-5 text-center">
           <Col>
-            <h2 className="animate__animated animate__fadeInDown display-4 fw-bold text-light">
-              SOBRE MÍ Y MI VISIÓN
+            <h2 className="animate__animated animate__fadeInDown display-4  ">
+              Sobre mí y mi visión
             </h2>
           </Col>
         </Row>
