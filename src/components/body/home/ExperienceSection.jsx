@@ -26,9 +26,9 @@ const ExperienceSection = () => {
             <Typewriter
               options={{
                 strings: [
-                  "DESARROLLADOR FRONT-END",
-                  "DESARROLLADOR BACK-END",
-                  "EXPERTO EN TECNOLOGÍAS MODERNAS",
+                  "DESARROLLADOR FULL-STACK",
+                  "SOLUCIONES DIGITALES EFECTIVAS",
+                  "IMPULSADO POR LA INNOVACIÓN WEB",
                 ],
                 autoStart: true,
                 loop: true,
@@ -44,7 +44,7 @@ const ExperienceSection = () => {
           <Col md={4} sm={6}>
             <Card className="custom-card shadow-lg">
               <Card.Body>
-                <h4 className="card-title">Front-End</h4>
+                <h4 className="card-title text-uppercase">Front-End</h4>
                 <ul className="list-unstyled">
                   <li>
                     <FaJs className="icon-style" /> JavaScript
@@ -67,7 +67,7 @@ const ExperienceSection = () => {
           <Col md={4} sm={6}>
             <Card className="custom-card shadow-lg">
               <Card.Body>
-                <h4 className="card-title">Back-End</h4>
+                <h4 className="card-title text-uppercase">Back-End</h4>
                 <ul className="list-unstyled">
                   <li>
                     <FaNodeJs className="icon-style" /> Node.js
@@ -90,7 +90,7 @@ const ExperienceSection = () => {
           <Col md={4} sm={12}>
             <Card className="custom-card shadow-lg">
               <Card.Body>
-                <h4 className="card-title">Tecnologías</h4>
+                <h4 className="card-title text-uppercase">Tecnologías</h4>
                 <ul className="list-unstyled">
                   <li>
                     <SiExpress className="icon-style" /> Express

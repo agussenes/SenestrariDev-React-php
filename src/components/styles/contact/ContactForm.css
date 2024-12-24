@@ -1,7 +1,9 @@
 .contact-form {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+    background-image: url('../../../../public/assets/imagenes/home/heroBienvenida/posibleslider3.webp');
     color: #fff;
     padding: 60px 0;
+    background-attachment: fixed;
   }
   
   .form-container {
@@ -40,7 +42,7 @@
     left: 40px;
     top: 50%;
     transform: translateY(-50%);
-    color: #aaa;
+    color: #000000;
     font-size: 1rem;
     transition: 0.3s ease all;
   }
@@ -66,12 +68,25 @@
   }
   
   .btn-cta:hover {
-    background: #004e92 !important;
+    background: #024b55 !important;
     transform: scale(1.05);
     color: #fff !important;
   }
   
   /* Social Links */
+
+  .social-icons{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+  }
+
+  .social-icons h5{
+    color: #333;
+  
+  }
+
   .social-icons .social-link {
     font-size: 2rem;
     margin: 0 10px;

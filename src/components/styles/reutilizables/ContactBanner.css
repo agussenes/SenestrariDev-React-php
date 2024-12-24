@@ -26,12 +26,13 @@
 .btn-cta {
   font-size: 1.1rem;
   font-weight: bold !important;
-  background-color: #ffffff !important;
+  background-color: #00d4ff !important;
   color: #004e92;
   padding: 12px 40px;
   border-top-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  border-color: #fff !important;
 }
 
 /* Efecto hover para el botón */

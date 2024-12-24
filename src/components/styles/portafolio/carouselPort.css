@@ -1,0 +1,29 @@
+/* Estilo del contenedor del carousel */
+.contenedorImagen {
+    width: 100%;
+    height: auto; /* Ajusta la altura fija para las imágenes */
+    overflow: hidden; /* Asegura que no haya contenido que se desborde */
+    border-radius: 10px; /* Para bordes redondeados */
+  }
+  
+  /* Ajusta las imágenes en el carousel */
+  .contenedorImagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene las proporciones de las imágenes */
+  }
+  
+  /* Ajustes generales de Swiper */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #71c6d4; /* Color de las flechas */
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #71c6d4; /* Color de los bullets */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ffcc80; /* Color del bullet activo */
+  }
+  

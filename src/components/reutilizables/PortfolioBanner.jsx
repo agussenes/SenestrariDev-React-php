@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "animate.css";
-import "../styles/ContactBanner.css";
+import "../styles/reutilizables/ContactBanner.css";
 
 const PortfolioBanner = () => {
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ const PortfolioBanner = () => {
     <section className="portfolio-banner py-5">
       <Container className="text-center">
         <div className="banner-content animate__animated animate__fadeInUp">
-          <h2 className="banner-title mb-4">
+          <h2 className="banner-title text-uppercase mb-4">
             ¡Descubre mi portafolio de proyectos!
           </h2>
           <p className="banner-text mb-4">
@@ -25,7 +25,7 @@ const PortfolioBanner = () => {
           </p>
           <Button
             variant=""
-            className="btn-cta animate__animated animate__pulse infinite-btn"
+            className="btn-cta animate__animated animate__pulse infinite-btn text-uppercase"
             onClick={handlePortfolioClick}
           >
             Ver mi Portafolio

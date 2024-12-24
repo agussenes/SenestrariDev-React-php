@@ -10,7 +10,7 @@ const AboutSection = () => {
         {/* Título */}
         <Row className="mb-5 text-center">
           <Col>
-            <h2 className="animate__animated animate__fadeInDown display-4  ">
+            <h2 className="animate__animated animate__fadeInDown display-4 text-uppercase ">
               Sobre mí y mi visión
             </h2>
           </Col>
@@ -40,7 +40,7 @@ const AboutSection = () => {
                     focos.ar
                   </a>
                 </p>
-                <Button  size="sm" className="mt-3 botonHover">
+                <Button  size="sm" className="mt-3 botonHover text-uppercase">
                   Ver Portafolio
                 </Button>
               </div>

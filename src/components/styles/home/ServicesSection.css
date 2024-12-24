@@ -56,6 +56,7 @@
   border-top-left-radius:0px!important;
   border-bottom-right-radius: 0px!important;
   font-size: 1.2rem;
+  border-color: #fff !important;
 }
 
 .cta-button:hover {

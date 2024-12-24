@@ -15,7 +15,7 @@ const HeroBienvenida = () => {
         navigation
         pagination={{ clickable: true }}
         effect="fade"
-        autoplay={{ delay: 4000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
         style={{ zIndex: 1 }} // Evita problemas de superposición
         className="hero-swiper"
@@ -31,7 +31,7 @@ const HeroBienvenida = () => {
           >
             <div className="hero-overlay">
               <h1 className="animate__animated animate__fadeInDown">
-                Bienvenido a <span>Senestrari Dev</span>
+                BIENVENIDO/A A <span>SENESTRARI DEV</span>
               </h1>
               <p className="animate__animated animate__fadeInUp animate__delay-1s">
                 Desarrollo web moderno y funcional con tecnologías de vanguardia.
@@ -39,13 +39,13 @@ const HeroBienvenida = () => {
               <div className="hero-buttons">
                 <a
                   href="#services"
-                  className="btn btn-primary me-2 animate__animated animate__fadeInUp animate__delay-2s"
+                  className="btn btn-primary me-2 animate__animated animate__fadeInUp animate__delay-2s text-uppercase"
                 >
                   Conocer Servicios
                 </a>
                 <a
                   href="#contact"
-                  className="btn btn-outline-light animate__animated animate__fadeInUp animate__delay-2s"
+                  className="btn btn-outline-light animate__animated animate__fadeInUp animate__delay-2s text-uppercase"
                 >
                   Contáctame
                 </a>
@@ -65,7 +65,7 @@ const HeroBienvenida = () => {
           >
             <div className="hero-overlay">
               <h1 className="animate__animated animate__fadeInDown">
-                Innovación y Creatividad
+                INNOVACIÓN Y CREATIVIDAD
               </h1>
               <p className="animate__animated animate__fadeInUp animate__delay-1s">
                 Impulsa tu negocio con una presencia digital poderosa.
@@ -73,7 +73,7 @@ const HeroBienvenida = () => {
               <div className="hero-buttons">
                 <a
                   href="#services"
-                  className="btn btn-primary me-2 animate__animated animate__fadeInUp animate__delay-2s"
+                  className="btn btn-primary me-2 animate__animated animate__fadeInUp animate__delay-2s text-uppercase"
                 >
                   Descubre Más
                 </a>
@@ -92,16 +92,16 @@ const HeroBienvenida = () => {
             }}
           >
             <div className="hero-overlay">
-              <h1 className="animate__animated animate__fadeInDown">
+              <h1 className="animate__animated animate__fadeInDown text-uppercase">
                 Transforma tu Visión en Realidad
               </h1>
-              <p className="animate__animated animate__fadeInUp animate__delay-1s">
+              <p className="animate__animated animate__fadeInUp animate__delay-1s ">
                 Experiencias web únicas con React.js y tecnologías modernas.
               </p>
               <div className="hero-buttons">
                 <a
                   href="#portfolio"
-                  className="btn btn-outline-light animate__animated animate__fadeInUp animate__delay-2s"
+                  className="btn btn-outline-light animate__animated animate__fadeInUp animate__delay-2s text-uppercase"
                 >
                   Ver Proyectos
                 </a>

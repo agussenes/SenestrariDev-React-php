@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "animate.css";
-import "../styles/TestimonialSection.css"; 
+import "../styles//reutilizables/TestimonialSection.css"; 
 
 const testimonials = [
   {
@@ -83,7 +83,7 @@ const TestimonialSection = () => {
                       href={testimonial.website}
                       target="_blank"
                       variant="primary"
-                      className="btn-website"
+                      className="btn-website text-uppercase"
                     >
                       Ver Sitio Web
                     </Button>

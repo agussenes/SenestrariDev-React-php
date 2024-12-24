@@ -87,6 +87,7 @@
   transition: all 0.3s ease;
   border-top-left-radius:0px!important;
   border-bottom-right-radius: 0px!important;
+  border-color: #fff !important;
 }
 
 .botonHover:hover {

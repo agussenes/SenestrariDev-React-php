@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/partialsStyles.css';
+import '../styles/reutilizables/partialsStyles.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 

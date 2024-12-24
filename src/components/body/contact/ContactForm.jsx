@@ -38,7 +38,7 @@ const ContactForm = () => {
         <Row className="justify-content-center">
           <Col md={8} className="animate__animated animate__fadeInUp">
             <div className="form-container p-4 shadow-lg rounded">
-              <h2 className="text-center mb-4">Contáctame</h2>
+              <h2 className="text-center mb-4 text-uppercase">Contáctame</h2>
               <Form onSubmit={handleSubmit}>
                 {/* Nombre */}
                 <Form.Group className="mb-4" controlId="formName">
@@ -93,7 +93,7 @@ const ContactForm = () => {
 
                 {/* Botón */}
                 <div className="text-center">
-                  <Button variant="primary" type="submit" className="btn-cta">
+                  <Button variant="primary" type="submit" className="btn-cta text-uppercase">
                     <FaPaperPlane className="me-2" /> Enviar Mensaje
                   </Button>
                 </div>

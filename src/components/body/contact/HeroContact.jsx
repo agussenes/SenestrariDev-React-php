@@ -8,13 +8,13 @@ const ContactHero = () => {
     <section className="contact-hero">
       <div className="glass-box animate__animated animate__fadeInUp">
         <Container className="text-center">
-          <h1 className="hero-title">Hablemos de tu próximo proyecto</h1>
+          <h1 className="hero-title text-uppercase">Hablemos de tu próximo proyecto</h1>
           <p className="hero-subtitle">
             Contácta conmigo y llevemos tu idea al siguiente nivel.
           </p>
           <Button
             variant="primary"
-            className="hero-btn animate__animated animate__pulse infinite-btn"
+            className="hero-btn animate__animated animate__pulse infinite-btn text-uppercase"
             href="#contact"
           >
             Contactame

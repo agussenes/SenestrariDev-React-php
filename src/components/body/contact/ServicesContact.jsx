@@ -30,7 +30,7 @@ const ServicesContact = () => {
   return (
     <section className="services-contact-section py-5">
       <Container>
-        <h2 className="services-contact-title text-center mb-5 animate__animated animate__fadeInDown">
+        <h2 className="services-contact-title text-center mb-5 animate__animated animate__fadeInDown text-uppercase">
           Mis Servicios
         </h2>
         <Row>
@@ -47,7 +47,7 @@ const ServicesContact = () => {
                   <i
                     className={`${service.icon} services-contact-icon mb-3`}
                   ></i>
-                  <Card.Title>{service.title}</Card.Title>
+                  <Card.Title className="text-uppercase">{service.title}</Card.Title>
                   <Card.Text>{service.description}</Card.Text>
                 </Card.Body>
               </Card>

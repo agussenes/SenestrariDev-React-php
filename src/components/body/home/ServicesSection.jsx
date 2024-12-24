@@ -69,11 +69,11 @@ const ServicesSection = () => {
 
         {/* Llamada a la acción */}
         <div className="text-center mt-5 animate__animated animate__fadeInUp">
-          <h3 className="cta-title mb-3">¿Listo para llevar tu proyecto al siguiente nivel?</h3>
+          <h3 className="cta-title mb-3 text-uppercase">¿Listo para llevar tu proyecto al siguiente nivel?</h3>
           <Button
             href="/contact"
             variant="primary"
-            className="cta-button"
+            className="cta-button text-uppercase"
             size="lg"
           >
             Contáctame Ahora

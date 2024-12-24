@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../styles/partialsStyles.css';
+import '../styles/reutilizables/partialsStyles.css';
 
 const Footer = () => {
   return (
