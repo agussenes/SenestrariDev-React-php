@@ -30,14 +30,14 @@ const AboutSection = () => {
                 <h5 className="fw-bold text-white">Agustín Ezequiel Senestrari</h5>
                 <p>
                   <strong>Último Proyecto:</strong>{' '}
-                  <a href="https://unengroup.com.ar" target="_blank" rel="noreferrer" className="hover-link">
-                    unengroup.com.ar
+                  <a href="https://whiskyandco.com.ar/" target="_blank" rel="noreferrer" className="hover-link">
+                  whiskyandco.com.ar
                   </a>
                 </p>
                 <p>
                   <strong>Ante último Proyecto:</strong>{' '}
-                  <a href="https://focos.ar" target="_blank" rel="noreferrer" className="hover-link">
-                    focos.ar
+                  <a href="https://unengroup.com.ar" target="_blank" rel="noreferrer" className="hover-link">
+                  unengroup.com.ar
                   </a>
                 </p>
                 <Button  size="sm" className="mt-3 botonHover text-uppercase">

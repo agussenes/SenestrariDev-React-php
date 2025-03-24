@@ -18,7 +18,7 @@ const testimonials = [
     website: "https://unengroup.com.ar",
     img: "/assets/imagenes/testimonials/logoConFondoYNombre.png",
     message:
-      "Trabajar con Agustin ha sido una experiencia excepcional. Su enfoque en la precisión y dedicación ayudó a que nuestra plataforma inmobiliaria destacara por su diseño moderno y funcionalidad impecable.",
+      "En primer lugar quiero agradecer a Agustín, por su entrega y compromiso, y destacar que capto desde el minuto cero la esencia de la marca, cada entrega que hizo fue superadora en mis expectativas y así sucedió en cada etapa de presentación revalidando su alto profesionalismo. Feliz del resultado conseguido!!! Gracias!!!!",
   },
   {
     id: 2,

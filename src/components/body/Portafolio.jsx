@@ -1,8 +1,10 @@
 import { useState } from "react";
-// import HeroPortafolio from "../body/portafolio/HeroPortafolio";
-// import Filtros from "../body/portafolio/FiltroPortafolio";
-// import GaleriaProyectos from "../body/portafolio/GaleriaProyectos";
-// import ModalDetalles from "../body/portafolio/ModalDetalles";
+import { Helmet } from 'react-helmet-async';
+import SEOJsonLD from '../partials/SEOJsonLD';
+import proyectosData from '../../data/proyectos';
+import BannerContact from '../reutilizables/BannerContact';
+
+
 import HeroPortafolio from "../body/portafolio/HeroPortafolio";
 import Filtros from "../body/portafolio/FiltroPortafolio";
 import GaleriaProyectos from "../body/portafolio/GaleriaProyectos";
@@ -11,67 +13,56 @@ import ModalDetalles from "../body/portafolio/ModalDetalles";
 
 const Portafolio = () => {
 
-    const proyectos = [
-        {
-            id: 1,
-            titulo: "Proyecto 1",
-            categoria: "web",
-            tecnologias: ["React", "Bootstrap"],
-            imagenes: [
-                "./assets/imagenes/home/heroBienvenida/posibleslider1.jpg",
-                "./assets/imagenes/home/heroBienvenida/posibleslider2.webp"
-            ],
-            descripcion: "Descripción del proyecto 1",
-        },
-        {
-            id: 2,
-            titulo: "Proyecto 2",
-            categoria: "php",
-            tecnologias: ["React Native", "Redux"],
-            imagenes: [
-                "./assets/imagenes/home/heroBienvenida/posibleslider1.jpg",
-                "./assets/imagenes/home/heroBienvenida/posibleslider2.webp"
-            ],
-            descripcion: "Descripción del proyecto 2",
-        },
-        {
-            id: 3,
-            titulo: "Proyecto 3",
-            categoria: "react",
-            tecnologias: ["Figma", "Photoshop"],
-            imagenes: [
-                "./assets/imagenes/home/heroBienvenida/posibleslider1.jpg",
-                "../assets/imagenes/home/heroBienvenida/posibleslider2.webp"
-            ],
-            descripcion: "Descripción del proyecto 3",
-        },
-    ];
-
 
     const [filtro, setFiltro] = useState("todos");
     const [modal, setModal] = useState({ show: false, proyecto: null });
 
-    const proyectosFiltrados = proyectos.filter((proyecto) => {
+    const proyectosFiltrados = proyectosData.filter((proyecto) => {
         if (filtro === "todos") return true;
         return proyecto.categoria === filtro || proyecto.tecnologias.includes(filtro);
-    });
+      });
 
     return (
-        <div>
-            <HeroPortafolio />
-            <Filtros setFiltro={setFiltro} />
-            <div className="container">
-                <GaleriaProyectos proyectos={proyectosFiltrados} abrirModal={(proyecto) => setModal({ show: true, proyecto })} />
+        <>
+            <Helmet>
+                <title>Portafolio | Proyectos Realizados - Senestrari Dev</title>
+                <meta name="description" content="Descubrí el portafolio profesional de Senestrari Dev: sitios web modernos, aplicaciones interactivas y soluciones web a medida desarrolladas con tecnologías como React, Node.js, WordPress y más." />
 
+                <meta property="og:title" content="Portafolio | Trabajos realizados - Senestrari Dev" />
+                <meta property="og:description" content="Explorá mis trabajos: desde landing pages hasta sistemas completos. Todo hecho con amor al código." />
+                <meta property="og:image" content="https://senestraridev.com/assets/imagenes/faviconLogo/logoSenestraridevH.png" />
+                <meta property="og:url" content="https://senestraridev.com/portafolio" />
+                <meta property="og:type" content="website" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Portafolio | Proyectos Full Stack" />
+                <meta name="twitter:description" content="Mirá mi portfolio de proyectos: soluciones reales para clientes reales." />
+                <meta name="twitter:image" content="https://senestraridev.com/assets/imagenes/faviconLogo/logoSenestraridevH.png" />
+
+                <link rel="canonical" href="https://senestraridev.com/portafolio" />
+                <meta name="robots" content="index, follow" />
+            </Helmet>
+            <SEOJsonLD />
+            <div>
+                <HeroPortafolio />
+                <div className="py-4">
+                <Filtros setFiltro={setFiltro} />
+                </div>
+                
+                <div className="container py-4">
+                    <GaleriaProyectos proyectos={proyectosFiltrados} abrirModal={(proyecto) => setModal({ show: true, proyecto })} />
+
+                </div>
+                <BannerContact />
+                {modal.proyecto && (
+                    <ModalDetalles
+                        proyecto={modal.proyecto}
+                        show={modal.show}
+                        onHide={() => setModal({ show: false, proyecto: null })}
+                    />
+                )}
             </div>
-            {modal.proyecto && (
-                <ModalDetalles
-                    proyecto={modal.proyecto}
-                    show={modal.show}
-                    onHide={() => setModal({ show: false, proyecto: null })}
-                />
-            )}
-        </div>
+        </>
     );
 };
 

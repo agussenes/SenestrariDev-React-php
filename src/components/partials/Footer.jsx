@@ -43,7 +43,13 @@ const Footer = () => {
         <Row>
           <Col className="text-center">
             <hr className="border-light" />
-            <p className="mb-0">&copy; {new Date().getFullYear()} Senestrari Dev - Todos los derechos reservados.</p>
+            <p className="mb-0"> <img
+            src="/assets/imagenes/faviconLogo/logoSenestraridevH.png"
+            alt="Logo senestrari de - tu desarrollo esta a tu alcance "
+            width="150"
+            height="auto"
+
+          /> &copy; {new Date().getFullYear()} - Todos los derechos reservados.</p>
           </Col>
         </Row>
       </Container>

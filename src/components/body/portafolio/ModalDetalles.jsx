@@ -13,6 +13,17 @@ const ModalDetalles = ({ proyecto, show, onHide }) => {
         {/* Usa el Carrusel aquí */}
         <Carrusel imagenes={proyecto.imagenes} />
         <p className="mt-4">{proyecto.descripcion}</p>
+        {proyecto.link && proyecto.link !== "#" && (
+          <a
+            href={proyecto.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-success mt-3"
+          >
+            Ver sitio
+          </a>
+        )}
+
       </Modal.Body>
     </Modal>
   );

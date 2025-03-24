@@ -1,4 +1,5 @@
 import Carrusel from "./CarouselPort";
+import './GaleriaProyectos.css'
 
 const GaleriaProyectos = ({ proyectos, abrirModal }) => {
   return (

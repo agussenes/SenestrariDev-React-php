@@ -1,0 +1,21 @@
+.hero-portafolio {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* dark branding */
+    color: #fff;
+    padding: 6rem 1rem;
+    text-align: center;
+  }
+  
+  .hero-portafolio h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #00ffc3;
+  }
+  
+  .hero-portafolio p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #f1f1f1;
+  }
+  
