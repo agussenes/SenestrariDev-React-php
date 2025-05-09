@@ -10,6 +10,7 @@ import Filtros from "../body/portafolio/FiltroPortafolio";
 import GaleriaProyectos from "../body/portafolio/GaleriaProyectos";
 import ModalDetalles from "../body/portafolio/ModalDetalles";
 
+import '../styles/portafolio/Portafolio.css';
 
 const Portafolio = () => {
 
@@ -45,11 +46,11 @@ const Portafolio = () => {
             <SEOJsonLD />
             <div>
                 <HeroPortafolio />
-                <div className="py-4">
+                <div className="">
                 <Filtros setFiltro={setFiltro} />
                 </div>
                 
-                <div className="container py-4">
+                <div className="contenedorGaleria  py-4">
                     <GaleriaProyectos proyectos={proyectosFiltrados} abrirModal={(proyecto) => setModal({ show: true, proyecto })} />
 
                 </div>

@@ -1,0 +1,10 @@
+.posts-construccion {
+    min-height: 80vh;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  }
+  
+  .card h2 {
+    font-weight: 700;
+    color: #212529;
+  }
+  

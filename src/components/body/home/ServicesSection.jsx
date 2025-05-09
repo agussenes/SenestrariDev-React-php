@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import { FaLaptopCode, FaTools, FaWordpress, FaMobileAlt, FaRocket, FaHandshake } from "react-icons/fa";
 import "animate.css";
 import "../../styles/home/ServicesSection.css";
@@ -70,14 +71,13 @@ const ServicesSection = () => {
         {/* Llamada a la acción */}
         <div className="text-center mt-5 animate__animated animate__fadeInUp">
           <h3 className="cta-title mb-3 text-uppercase">¿Listo para llevar tu proyecto al siguiente nivel?</h3>
-          <Button
-            href="/contact"
+          <Link to="/contact"><Button
             variant="primary"
             className="cta-button text-uppercase"
             size="lg"
           >
             Contáctame Ahora
-          </Button>
+          </Button></Link>
         </div>
       </Container>
     </section>

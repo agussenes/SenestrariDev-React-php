@@ -2,7 +2,7 @@ const proyectos = [
     {
       id: 1,
       titulo: "Whisky & Co",
-      categoria: "MERN",
+      categoria: "mern",
       tecnologias: ["MongoDB", "Express", "React", "Node.js", "Diseño responsive", "SEO", "Bootstrap", "Swipper.js"],
       imagenes: ["/assets/imagenes/faviconLogo/logoSenestraridev.png"],
       descripcion: "Ecommerce desarrollado en MERN - Sigue en desarrollo",
@@ -19,13 +19,14 @@ const proyectos = [
     },
     {
       id: 3,
-      titulo: "Rocio Fidalgo",
-      categoria: "wordpress",
-      tecnologias: ["WordPress", "WooCommerce", "Diseño visual", "Diseño responsive","SEO","Divi"],
+      titulo: "Sindicato Luz y Fuerza",
+      categoria: "web",
+      tecnologias: ["React", "Vite", "PHP", "Bootstrap", "Diseño responsive", "SEO"],
       imagenes: ["/assets/imagenes/faviconLogo/logoSenestraridev.png"],
-      descripcion: "Plataforma para venta de rutinas fitness, desarrollada en WordPress + WooCommerce. | En desarrollo",
-      link: "https://chechodev.com/"
+      descripcion: "Sitio web Institucional para el sindicato de Luz y Fuerza",
+      link: "https://senestraridev.store/"
     },
+   
     {
       id: 4,
       titulo: "Año Nuevo Chino",

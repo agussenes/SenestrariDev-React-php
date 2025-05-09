@@ -13,6 +13,15 @@ import "../styles//reutilizables/TestimonialSection.css";
 const testimonials = [
   {
     id: 1,
+    name: "Whisky & Co",
+    role: "Equipo de Whisky & Co",
+    website: "https://whiskyandco.com.ar/",
+    img: "/assets/imagenes/testimonials/whiskyandco.jpg",
+    message:
+      "Trabajar con Agustín y Senestrari Dev fue una experiencia excelente. Desarrollaron nuestra plataforma web completa con MERN (MongoDB, Express, React, Node.js) y superaron todas nuestras expectativas. No solo captaron la esencia de nuestra marca, sino que también nos entregaron un sitio rápido, seguro y totalmente administrable. Siempre estuvieron atentos a nuestras necesidades, proponiendo soluciones escalables y con visión a futuro. ¡Un verdadero aliado tecnológico para Whisky & Co!",
+  },
+  {
+    id: 2,
     name: "Constanza Garcia",
     role: "CEO de UnenGroup",
     website: "https://unengroup.com.ar",
@@ -21,7 +30,7 @@ const testimonials = [
       "En primer lugar quiero agradecer a Agustín, por su entrega y compromiso, y destacar que capto desde el minuto cero la esencia de la marca, cada entrega que hizo fue superadora en mis expectativas y así sucedió en cada etapa de presentación revalidando su alto profesionalismo. Feliz del resultado conseguido!!! Gracias!!!!",
   },
   {
-    id: 2,
+    id: 3,
     name: "Ramenfactory",
     role: "Inovandodes.com",
     website: "https://inovandodes.com",

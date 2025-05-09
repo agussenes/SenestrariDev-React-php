@@ -1,6 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import SEOJsonLD from '../partials/SEOJsonLD';
+import SEOJsonLD from '../../partials/SEOJsonLD';
+import ServicesSection from '../home/ServicesSection';
+import TestimonialSection from '../../reutilizables/TestimonialSection';
+import FAQSection from '../../reutilizables/FAQSection';
 
 const Services = () => {
   return (
@@ -26,7 +29,9 @@ const Services = () => {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <SEOJsonLD />
-      {/* JSX de sección servicios */}
+      <ServicesSection />
+      <TestimonialSection />
+      <FAQSection />
     </>
   );
 };

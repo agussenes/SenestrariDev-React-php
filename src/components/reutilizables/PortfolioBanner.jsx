@@ -8,7 +8,7 @@ const PortfolioBanner = () => {
   const navigate = useNavigate();
 
   const handlePortfolioClick = () => {
-    navigate("/portfolio"); // Ruta a tu portafolio
+    navigate("/portafolio"); 
   };
 
 
